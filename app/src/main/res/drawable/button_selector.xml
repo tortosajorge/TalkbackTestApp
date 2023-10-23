@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#B0C4DE" /> <!-- Azul atenuado -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Presionado -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#0056b3" /> <!-- Cambia el color según tu diseño -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!-- Estado normal -->
+    <item>
+        <shape>
+            <solid android:color="#0062CA" /> <!-- Cambia el color según tu diseño -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>

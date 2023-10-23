@@ -27,7 +27,6 @@ class MainActivity : AppCompatActivity() {
         setupRecyclerView()
         setupListeners()
         setupCustomAccessibilityAction()
-        setupCustomDirections()
     }
 
     private fun setupRecyclerView(){
@@ -71,7 +70,5 @@ class MainActivity : AppCompatActivity() {
         ViewCompat.setAccessibilityDelegate(binding.titleRecyclerView, myAccessibilityDelegate)
     }
 
-    private fun setupCustomDirections(){
-        binding.showButton.accessibilityTraversalBefore
-    }
+
 }
